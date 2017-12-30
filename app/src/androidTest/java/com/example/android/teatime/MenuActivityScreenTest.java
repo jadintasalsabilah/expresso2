@@ -31,8 +31,8 @@ public class MenuActivityScreenTest {
 
     public static final String TEA_NAME = "Green Tea";
 
-    // TODO (3) Finish writing this test which will click on a gridView Tea item and verify that
-    // the OrderActivity opens up with the correct tea name displayed.
+    @Rule
+    public ActivityTestRule<MenuActivity> mActivityTestRule = new ActivityTestRule<>(MenuActivity.class);
 
     public void clickGridViewItem_OpensOrderActivity() {
 
