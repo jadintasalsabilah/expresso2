@@ -34,6 +34,7 @@ public class MenuActivityScreenTest {
     @Rule
     public ActivityTestRule<MenuActivity> mActivityTestRule = new ActivityTestRule<>(MenuActivity.class);
 
+    @Test
     public void clickGridViewItem_OpensOrderActivity() {
 
     }
